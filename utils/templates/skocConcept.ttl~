@@ -1,0 +1,17 @@
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+
+<26>
+        a                        skos:ConceptScheme ;
+        rdfs:label               "some label"@en ;
+        ldp:isMemberOfRelation   skos:inScheme .
+        
+<26/023>
+        skos:inScheme <26> ;
+        a              skos:Concept ;
+        rdfs:label     "Day"@en ;
+        skos:notation  "023" .

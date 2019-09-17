@@ -1,0 +1,6 @@
+import glob
+
+
+for infile in glob.blob('../*.csv'):
+    print(infile)
+
